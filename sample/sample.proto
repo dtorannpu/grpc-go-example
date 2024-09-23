@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package sample;
 
-option go_package = "github.com/dtorannpu/grpc-example/sample";
+option go_package = "github.com/dtorannpu/grpc-go-example/sample";
 
 service SampleService {
     rpc Sample (SampleRequest) returns (SampleResponse);

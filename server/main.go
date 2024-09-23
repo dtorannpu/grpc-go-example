@@ -9,7 +9,7 @@ import (
 	"github.com/rs/zerolog/log"
 	"google.golang.org/grpc"
 
-	"github.com/dtorannpu/grpc-example/sample"
+	"github.com/dtorannpu/grpc-go-example/sample"
 )
 
 var (

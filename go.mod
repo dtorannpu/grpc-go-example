@@ -1,4 +1,4 @@
-module github.com/dtorannpu/grpc-example
+module github.com/dtorannpu/grpc-go-example
 
 go 1.23.1
 

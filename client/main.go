@@ -3,11 +3,12 @@ package main
 import (
 	"context"
 	"flag"
-	"github.com/dtorannpu/grpc-example/sample"
+	"time"
+
+	"github.com/dtorannpu/grpc-go-example/sample"
 	"github.com/rs/zerolog/log"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
-	"time"
 )
 
 var (
