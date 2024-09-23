@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package sample;
+
+option go_package = "github.com/dtorannpu/grpc-example/sample";
+
+service SampleService {
+    rpc Sample (SampleRequest) returns (SampleResponse);
+}
+
+message SampleRequest {
+    string hoge = 1;
+}
+
+message SampleResponse {
+    string message = 1;
+}
